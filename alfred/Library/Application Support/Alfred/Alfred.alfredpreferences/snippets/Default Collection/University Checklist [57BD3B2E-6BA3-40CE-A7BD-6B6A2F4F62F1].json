@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "# University Checklist - Week {cursor} - Starting {isodate:dd\/MM\/yyyy}\n\n## General\n\n- [ ] \n\n## CNCO2000 Computer Communications\n\n- [ ] Review lecture slides\n- [ ] Attend\/watch lecture\n- [ ] Make flashcards\n- [ ] Attend tutorial\n- [ ] Complete tutorial exercises\n- [ ] Watch computer lab help session\n- [ ] Complete computer lab exercises\n- [ ] Work on Assignment Task 01\n- [ ] Submit Assignment Task 01\n\n## COMP2008 Mobile Application Development\n\n- [ ] Review lecture slides\n- [ ] Attend\/watch lecture\n- [ ] Make flashcards\n- [ ] Attend computer lab\n- [ ] Complete computer lab exercises\n- [ ] Submit computer lab exercises\n\t\n## COMP3008 Distributed Computing\n\n- [ ] Review lecture slides\n- [ ] Attend\/watch lecture\n- [ ] Make flashcards\n- [ ] Attend computer lab\n- [ ] Complete computer lab exercises\n- [ ] Submit computer lab exercises\n\n## ISEC3004 Cyber Crime and Security Enhanced Programming\n\n- [ ] Review lecture slides\n- [ ] Attend\/watch lecture\n- [ ] Make flashcards\n- [ ] Attend computer lab\n- [ ] Complete computer lab exercises\n",
+    "uid" : "57BD3B2E-6BA3-40CE-A7BD-6B6A2F4F62F1",
+    "name" : "University Checklist",
+    "keyword" : "uc"
+  }
+}

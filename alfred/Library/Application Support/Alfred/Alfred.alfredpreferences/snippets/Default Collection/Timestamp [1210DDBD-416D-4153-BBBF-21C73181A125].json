@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "{date:short} {time:short}: ",
+    "uid" : "1210DDBD-416D-4153-BBBF-21C73181A125",
+    "name" : "Timestamp",
+    "keyword" : "ts"
+  }
+}

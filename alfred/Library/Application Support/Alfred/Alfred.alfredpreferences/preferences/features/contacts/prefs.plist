@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>customFields</key>
+	<array>
+		<dict>
+			<key>action</key>
+			<string>default.clipboard</string>
+			<key>schemeurl</key>
+			<string></string>
+			<key>uid</key>
+			<string>alfred.contact.field.notes</string>
+		</dict>
+	</array>
+	<key>showTitle</key>
+	<true/>
+</dict>
+</plist>
