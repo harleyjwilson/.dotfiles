@@ -1,8 +1,0 @@
-{
-  "alfredsnippet" : {
-    "snippet" : "{date:yyyyMMddHHmm}",
-    "uid" : "18805532-85F2-4AC3-B3F1-829CEC642523",
-    "name" : "Unique ID",
-    "keyword" : "uuid"
-  }
-}

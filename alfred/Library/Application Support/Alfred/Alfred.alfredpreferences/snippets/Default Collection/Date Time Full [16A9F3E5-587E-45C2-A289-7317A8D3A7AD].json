@@ -1,8 +1,0 @@
-{
-  "alfredsnippet" : {
-    "snippet" : "{date:full} {time:short}",
-    "uid" : "16A9F3E5-587E-45C2-A289-7317A8D3A7AD",
-    "name" : "Date & Time Full",
-    "keyword" : "dt"
-  }
-}
