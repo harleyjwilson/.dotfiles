@@ -1,7 +1,7 @@
 nodejs 20.15.0
 java openjdk-21
 python 3.12.4
-ruby 3.3.5
+ruby 3.3.1
 pnpm 9.1.4
 gradle 8.8
 maven 3.9.6
@@ -10,3 +10,4 @@ rust 1.78.0
 git 2.45.2
 postgres 15.7
 golang 1.23.1
+erlang 27.1
