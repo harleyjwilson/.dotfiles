@@ -4,7 +4,7 @@
 	gpgsign = true
 	template = ~/.config/git/gitmessage
 [core]
-	editor = vim
+  	editor = 'vim' -c 'startinsert'
 [credential]
 	helper = store
 [credential "https://github.com"]
