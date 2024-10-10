@@ -4,19 +4,29 @@
 	gpgsign = true
 	template = ~/.config/git/gitmessage
 [core]
-  	editor = 'vim' -c 'startinsert'
+  editor = 'vim' -c 'startinsert'
+  pager = delta
 [credential]
 	helper = store
 [credential "https://github.com"]
 	helper = !/opt/homebrew/bin/gh auth git-credential
 [credential "https://gist.github.com"]
 	helper = !/opt/homebrew/bin/gh auth git-credential
+[delta]
+  navigate = true
+  side-by-side = true
+[diff]
+  colorMoved = default
 [gpg]
 	format = ssh
 [help]
 	autocorrect = prompt
 [init]
 	defaultBranch = main
+[interactive]
+  diffFilter = delta --color-only
+[merge]
+  conflictstyle = diff3
 [push]
 	autoSetupRemote = true
 [user]
