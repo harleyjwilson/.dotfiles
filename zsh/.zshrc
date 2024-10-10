@@ -79,6 +79,8 @@ alias f='fuck'
 alias rm='rm -r'
 alias cp='cp -r'
 alias pn='pnpm'
+alias ls='eza'
+alias find='fd'
 
 # Set up 'thefuck'
 eval $(thefuck --alias)
