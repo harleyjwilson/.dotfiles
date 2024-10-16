@@ -81,6 +81,7 @@ alias cp='cp -r'
 alias pn='pnpm'
 alias ls='eza'
 alias find='fd'
+alias df='duf'
 
 # Set up 'thefuck'
 eval $(thefuck --alias)
