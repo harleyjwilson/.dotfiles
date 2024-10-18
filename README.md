@@ -28,6 +28,10 @@ This repository is an ongoing collection of my macOS development setup.
 
 - Set up symbolic links with GNU Stow via `stow alfred asdf git homebrew iterm2 nvim vim zsh`
 
+### 7. Set macOS Preferences
+
+- Run macOS preferences script via `./scripts/macos.sh`
+
 ## Read Here if Using This Repository
 
 Please feel free to fork this repo, or copy-paste the things you need, to make it your own. **Please be sure to change your `git/.config/git/config` name and email address though!**
