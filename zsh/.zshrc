@@ -85,3 +85,6 @@ alias df='duf'
 
 # Set up 'thefuck'
 eval $(thefuck --alias)
+
+# Set up 'atuin'
+eval "$(atuin init zsh)"
