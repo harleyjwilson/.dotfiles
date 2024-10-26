@@ -26,7 +26,7 @@ This repository is an ongoing collection of my macOS development setup.
 
 ### 6. Link Dotfiles
 
-- Set up symbolic links with GNU Stow via `stow alfred asdf git homebrew iterm2 nvim vim zsh`
+- Set up symbolic links with GNU Stow via `stow alfred asdf git homebrew iterm2 nvim vim zed zsh`
 
 ### 7. Set macOS Preferences
 
