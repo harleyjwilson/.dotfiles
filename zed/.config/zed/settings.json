@@ -4,18 +4,69 @@
 // documentation: https://zed.dev/docs/configuring-zed
 //
 // To see all of Zed's default settings without changing your
-// custom settings, run `zed: open default settings` from the
-// command palette (cmd-shift-p / ctrl-shift-p)
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
 {
+  "assistant": {
+    "default_model": {
+      "model": "gpt-4o",
+      "provider": "copilot_chat"
+    },
+    "version": "2"
+  },
+  "autosave": "on_focus_change",
+  "base_keymap": "VSCode",
+  "buffer_font_size": 14,
+  "copilot": {
+    "enabled": true,
+    "key": "Tab"
+  },
+  "features": {
+    "copilot": true
+  },
+  "format_on_save": "prettier",
+  "formatter": {
+    "code_actions": {
+      "source.fixAll.eslint": true,
+      "source.organizeImports": true
+    }
+  },
+  "git": {
+    "inline_blame": {
+      "delay_ms": 500,
+      "enabled": false
+    }
+  },
+  "lsp": {
+    "pyright": {
+      "settings": {
+        "python": {
+          "pythonPath": ".venv/bin/python"
+        }
+      }
+    }
+  },
   "project_panel": {
     "dock": "right"
   },
+  "relative_line_numbers": true,
+  "scrollbar": {
+    "show": "never"
+  },
+  "show_copilot_suggestions": false,
+  "tab_bar": {
+    "show": true
+  },
+  "tab_size": 2,
+  "theme": "Tokyo Night",
+  "toolbar": {
+    "breadcrumbs": true,
+    "quick_actions": false
+  },
   "ui_font_size": 16,
-  "buffer_font_size": 16,
-  "theme": {
-    "mode": "system",
-    "light": "One Light",
-    "dark": "One Dark"
-  }
+  "vim": {
+    "use_multiline_find": true,
+    "use_system_clipboard": "always"
+  },
+  "vim_mode": true
 }
-
