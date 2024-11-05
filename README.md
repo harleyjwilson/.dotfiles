@@ -26,9 +26,18 @@ This repository is an ongoing collection of my macOS development setup.
 
 ### 6. Link Dotfiles
 
-- Set up symbolic links with GNU Stow via `stow alfred asdf git homebrew iterm2 nvim vim zed zsh`
+- Set up symbolic links with GNU Stow via `stow alfred asdf git hazel homebrew iterm2 nvim vim zed zsh`
 
-### 7. Set macOS Preferences
+### 7. Setup Hazel Rules
+
+1. Open Hazel.
+2. Select the "Add Folder" menu bar option to add the relevant folder.
+3. Right-click on the folder in the sidebar and select "Rule Sync Settings..."
+4. Select "Use existing sync file..."
+5. Select the relevant sync file in the `~/.config/hazel` directory.
+6. Repeat for each folder.
+
+### 8. Set macOS Preferences
 
 - Run macOS preferences script via `./scripts/macos.sh`
 
