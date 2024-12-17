@@ -5,15 +5,12 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
+# Homebrew completions
+autoload -Uz compinit
+compinit
+
 # Environment variable declarations
-export PATH="$PATH:/opt/homebrew/opt/gawk/libexec/gnubin"
-export PATH="$PATH:/Users/harleywilson/.vscode-dotnet-sdk/.dotnet"
-export PATH="$PATH:$HOME/bin"
-export PATH="$PATH:/Users/harleywilson/.local/bin"
-export PATH="$PATH:/Users/harleywilson/.asdf/installs/rust/1.78.0/env"
-export PATH="$PATH:/usr/local/opt/tcl-tk/bin"
 export ZSH="$HOME/.oh-my-zsh"
-export MANPATH="$MANPATH:/usr/local/man"
 export LANG=en_US.UTF-8
 
 # Source powerlevel10k
@@ -71,10 +68,11 @@ setopt APPEND_HISTORY        # append to history file (Default)
 setopt HIST_NO_STORE         # Don't store history commands
 setopt HIST_REDUCE_BLANKS    # Remove superfluous blanks from each command line being added to the history.
 
+# Fzf settings
 export FZF_DEFAULT_COMMAND='ag --hidden -g ""'
 
 # Personal aliases
-alias speedtest='speedtest --secure'
+alias speedtest='networkQuality'
 alias f='fuck'
 alias rm='rm -r'
 alias cp='cp -r'
@@ -82,6 +80,7 @@ alias pn='pnpm'
 alias ls='eza'
 alias find='fd'
 alias df='duf'
+alias top='btm'
 
 # Set up 'thefuck'
 eval $(thefuck --alias)
