@@ -81,6 +81,7 @@ alias ls='eza'
 alias find='fd'
 alias df='duf'
 alias top='btm'
+alias cat='bat'
 
 # Set up 'thefuck'
 eval $(thefuck --alias)
