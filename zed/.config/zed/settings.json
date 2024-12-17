@@ -14,7 +14,7 @@
     },
     "version": "2"
   },
-  "autosave": "on_focus_change",
+  "autosave": "off",
   "base_keymap": "VSCode",
   "buffer_font_size": 14,
   "copilot": {
@@ -24,7 +24,7 @@
   "features": {
     "copilot": true
   },
-  "format_on_save": "prettier",
+  "format_on_save": "on",
   "formatter": {
     "code_actions": {
       "source.fixAll.eslint": true,
@@ -35,6 +35,25 @@
     "inline_blame": {
       "delay_ms": 500,
       "enabled": false
+    }
+  },
+  "languages": {
+    "Python": {
+      "format_on_save": "on",
+      "formatter": [
+        {
+            "code_actions": {
+                "source.organizeImports.ruff": true,
+                "source.fixAll.ruff": true
+            }
+        },
+        {
+          "language_server": {
+            "name": "ruff"
+          }
+        }
+      ],
+      "language_servers": ["ruff"]
     }
   },
   "lsp": {
@@ -57,7 +76,7 @@
   "tab_bar": {
     "show": true
   },
-  "tab_size": 2,
+  "tab_size": 4,
   "theme": "Tokyo Night",
   "toolbar": {
     "breadcrumbs": true,
