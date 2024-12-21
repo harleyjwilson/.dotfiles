@@ -40,6 +40,10 @@ This repository is an ongoing collection of my macOS development setup.
 ### 8. Set macOS Preferences
 
 - Run macOS preferences script via `./scripts/macos.sh`
+- As you are unable to set up the keyboard shortcuts for Apple Mail in the same way as other programs follow these steps:
+  - Open System Settings
+  - Go to Keyboard > Keyboard Shortcuts > App Shortcuts
+  - Add new shortcut and select Mail.app as Application, set "Export as PDF…" as Menu title, and set ⌘⌥P as the Keyboard shortcut.
 
 ## Read Here if Using This Repository
 
