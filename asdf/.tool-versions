@@ -5,3 +5,4 @@ pnpm 9.15.0
 python 3.13.1
 rust 1.83.0
 ruby 3.4.1
+golang 1.23.4
