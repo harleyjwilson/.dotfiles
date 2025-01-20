@@ -32,5 +32,27 @@ return { -- Collection of various small independent plugins/modules
 		end
 		-- ... and there is more!
 		--  Check out: https://github.com/echasnovski/mini.nvim
+		local starter = require("mini.starter")
+		local telescope = require("telescope.builtin")
+		starter.setup({
+			autoopen = true,
+			items = {
+				{ name = "Create file", action = "ene | startinsert", section = "New File" },
+				{ name = "File search", action = telescope.find_files, section = "Telescope" },
+				{ name = "Recent files", action = telescope.oldfiles, section = "Telescope" },
+				{ name = "Text search", action = telescope.live_grep, section = "Telescope" },
+				{
+					name = "Neovim config",
+					action = function()
+						telescope.find_files({ cwd = vim.fn.stdpath("config") })
+					end,
+					section = "Config",
+				},
+				{ name = "Lazy", action = "Lazy", section = "Config" },
+				{ name = "Quit", action = "qa", section = "Quit" },
+			},
+			header = "",
+			footer = "",
+		})
 	end,
 }
