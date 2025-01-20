@@ -12,6 +12,7 @@ compinit
 # Environment variable declarations
 export ZSH="$HOME/.oh-my-zsh"
 export LANG=en_US.UTF-8
+export PATH="/opt/homebrew/bin:/bin:/usr/bin:$PATH"
 
 # Source powerlevel10k
 source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
