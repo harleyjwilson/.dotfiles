@@ -1,6 +1,15 @@
 #!/usr/bin/env bash
 
-BASE_DIRS=("$HOME" "$HOME/Repositories" "$HOME/Downloads")
+BASE_DIRS=("$HOME" "$HOME/Downloads" "$HOME/Repositories")
+
+command -v fd >/dev/null 2>&1 || { 
+    echo "Error: fd is not installed."; 
+    exit 1; 
+}
+command -v tmux >/dev/null 2>&1 || { 
+    echo "Error: tmux is not installed.";
+    exit 1; 
+}
 
 switch_to() {
     if [[ -z $TMUX ]]; then
@@ -25,7 +34,19 @@ hydrate() {
 if [[ $# -eq 1 ]]; then
     selected=$1
 else
-    selected=$(find "${BASE_DIRS[@]}" -mindepth 1 -maxdepth 1 -type d | fzf --preview 'ls -la {}')
+    directories=$(fd -d 1 -t d . "${BASE_DIRS[@]}" 2>/dev/null)
+    tmux_sessions=$(tmux list-sessions -F "#{session_name}" 2>/dev/null || true)
+
+    list=$(for dir in $directories; do
+        base_name=$(basename "$dir" | tr . _)
+        if echo "$tmux_sessions" | grep -q "^$base_name$"; then
+            echo "$dir *"
+        else
+            echo "$dir"
+        fi
+    done | sort -k2,2r)
+
+    selected=$(echo "$list" | fzf --preview 'ls -la {1}' | sed 's/ \*$//')
 fi
 
 if [[ -z $selected ]]; then
