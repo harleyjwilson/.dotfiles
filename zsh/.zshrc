@@ -73,7 +73,7 @@ setopt HIST_NO_STORE         # Don't store history commands
 setopt HIST_REDUCE_BLANKS    # Remove superfluous blanks from each command line being added to the history.
 
 # Fzf settings
-export FZF_DEFAULT_COMMAND='ag --hidden -g ""'
+# export FZF_DEFAULT_COMMAND='ag --hidden -g ""'
 
 # Personal aliases
 alias speedtest='networkQuality'
