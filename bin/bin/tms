@@ -1,18 +1,18 @@
 #!/usr/bin/env bash
 
-BASE_DIRS=("$HOME" "$HOME/Downloads" "$HOME/Repositories")
+base_dirs=("$HOME" "$HOME/downloads" "$HOME/repositories")
 
 command -v fd >/dev/null 2>&1 || { 
-    echo "Error: fd is not installed."; 
+    echo "error: fd is not installed."; 
     exit 1; 
 }
 command -v tmux >/dev/null 2>&1 || { 
-    echo "Error: tmux is not installed.";
+    echo "error: tmux is not installed.";
     exit 1; 
 }
 
 switch_to() {
-    if [[ -z $TMUX ]]; then
+    if [[ -z $tmux ]]; then
         tmux attach-session -t $1
     else
         tmux switch-client -t $1
@@ -25,17 +25,17 @@ has_session() {
 
 hydrate() {
     if [ -f $2/.tms ]; then
-        tmux send-keys -t $1 "source $2/.tms" c-M
-    elif [ -f $HOME/.tms ]; then
-        tmux send-keys -t $1 "source $HOME/.tms" c-M
+        tmux send-keys -t $1 "source $2/.tms" c-m
+    elif [ -f $home/.tms ]; then
+        tmux send-keys -t $1 "source $home/.tms" c-m
     fi
 }
 
 if [[ $# -eq 1 ]]; then
     selected=$1
 else
-    directories=$(fd -d 1 -t d . "${BASE_DIRS[@]}" 2>/dev/null)
-    tmux_sessions=$(tmux list-sessions -F "#{session_name}" 2>/dev/null || true)
+    directories=$(fd -d 1 -t d . "${base_dirs[@]}" 2>/dev/null)
+    tmux_sessions=$(tmux list-sessions -f "#{session_name}" 2>/dev/null || true)
 
     list=$(for dir in $directories; do
         base_name=$(basename "$dir" | tr . _)
@@ -56,7 +56,7 @@ fi
 selected_name=$(basename "$selected" | tr . _)
 tmux_running=$(pgrep tmux)
 
-if [[ -z $TMUX ]] && [[ -z $tmux_running ]]; then
+if [[ -z $tmux ]] && [[ -z $tmux_running ]]; then
     tmux new-session -s $selected_name -c $selected
     hydrate $selected_name $selected
     exit 0
