@@ -7,85 +7,56 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
-  "assistant": {
-    "default_model": {
-      "model": "gpt-4o",
-      "provider": "copilot_chat"
-    },
-    "version": "2"
-  },
-  "autosave": "off",
-  "base_keymap": "VSCode",
-  "buffer_font_size": 14,
-  "copilot": {
-    "enabled": true,
-    "key": "Tab"
-  },
-  "features": {
-    "copilot": true
-  },
-  "format_on_save": "on",
-  "formatter": {
-    "code_actions": {
-      "source.fixAll.eslint": true,
-      "source.organizeImports": true
-    }
-  },
-  "git": {
-    "inline_blame": {
-      "delay_ms": 500,
-      "enabled": false
-    }
-  },
-  "languages": {
-    "Python": {
-      "format_on_save": "on",
-      "formatter": [
-        {
-            "code_actions": {
-                "source.organizeImports.ruff": true,
-                "source.fixAll.ruff": true
-            }
-        },
-        {
-          "language_server": {
-            "name": "ruff"
-          }
-        }
-      ],
-      "language_servers": ["ruff"]
-    }
-  },
-  "lsp": {
-    "pyright": {
-      "settings": {
-        "python": {
-          "pythonPath": ".venv/bin/python"
-        }
-      }
-    }
-  },
+  // The name of the Zed theme to use for the UI.
+  //
+  // `mode` is one of:
+  // - "system": Use the theme that corresponds to the system's appearance
+  // - "light": Use the theme indicated by the "light" field
+  // - "dark": Use the theme indicated by the "dark" field
   "project_panel": {
     "dock": "right"
   },
-  "relative_line_numbers": true,
-  "scrollbar": {
-    "show": "never"
+  "theme": "Tokyo Night Storm",
+  // Features that can be globally enabled or disabled
+  "features": {
+    // Which inline completion provider to use.
+    "inline_completion_provider": "copilot"
   },
-  "show_copilot_suggestions": false,
-  "tab_bar": {
-    "show": true
+  // The default font size for text in the editor
+  "buffer_font_size": 14,
+  // Whether to enable vim modes and key bindings.
+  "vim_mode": true,
+  "format_on_save": "on",
+  // Different settings for specific languages.
+  "languages": {
+    "Python": {
+      "language_servers": ["ruff"]
+    },
+    "Ruby": {
+      "language_servers": ["solargraph", "rubocop", "!ruby-lsp"],
+      "formatter": "language_server"
+    }
   },
-  "tab_size": 4,
-  "theme": "Tokyo Night",
-  "toolbar": {
-    "breadcrumbs": true,
-    "quick_actions": false
+  // LSP Specific settings.
+  "lsp": {
+    "ruff": {},
+    "rubocop": {
+      "settings": {
+        "use_bundler": false
+      }
+    },
+    "solargraph": {
+      "initialization_options": {
+        "diagnostics": true,
+        "formatting": true
+      },
+      "settings": {
+        "use_bundler": false
+      }
+    }
   },
-  "ui_font_size": 16,
+  // Vim settings
   "vim": {
-    "use_multiline_find": true,
-    "use_system_clipboard": "always"
-  },
-  "vim_mode": true
+    "toggle_relative_line_numbers": true
+  }
 }
