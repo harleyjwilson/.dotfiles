@@ -1,0 +1,3 @@
+model: gpt-4o
+system: >
+    Can you make a `todo.md` that I can use as a checklist? Be thorough.

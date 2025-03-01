@@ -26,7 +26,7 @@ This repository is an ongoing collection of my macOS development setup.
 
 ### 6. Link Dotfiles
 
-- Set up symbolic links with GNU Stow via `stow alfred asdf git ghostty hazel homebrew iterm2 nvim tmux vim zed zsh`
+- Set up symbolic links with GNU Stow via `stow alfred asdf git ghostty hazel homebrew iterm2 llm nvim tmux vim zed zsh`
 
 ### 7. Setup Hazel Rules
 
