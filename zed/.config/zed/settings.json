@@ -13,6 +13,13 @@
   // - "system": Use the theme that corresponds to the system's appearance
   // - "light": Use the theme indicated by the "light" field
   // - "dark": Use the theme indicated by the "dark" field
+  "assistant": {
+    "default_model": {
+      "provider": "zed.dev",
+      "model": "claude-3-7-sonnet-latest"
+    },
+    "version": "2"
+  },
   "project_panel": {
     "dock": "right"
   },
@@ -20,7 +27,7 @@
   // Features that can be globally enabled or disabled
   "features": {
     // Which inline completion provider to use.
-    "inline_completion_provider": "copilot"
+    "edit_prediction_provider": "zed"
   },
   // The default font size for text in the editor
   "buffer_font_size": 14,
