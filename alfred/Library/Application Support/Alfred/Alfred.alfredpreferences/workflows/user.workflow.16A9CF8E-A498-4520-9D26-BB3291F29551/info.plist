@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>app.alfred.stephenc.cleanshot</string>
+	<key>connections</key>
+	<dict>
+		<key>34B5D9C9-DB6D-4526-AC51-5FF774A5FB5A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F6294115-DF4B-416F-B336-91EF4D611065</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>45033408-6228-454C-A61C-31BA7026041B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D111F303-0AA2-4AE1-9928-99C30951998F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Stephen Christy</string>
+	<key>description</key>
+	<string>CleanShot X utilities</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>CleanShot X</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>{var:keyword}</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>./CS.sh</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>{const:alfred_workflow_name}</string>
+				<key>type</key>
+				<integer>11</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>34B5D9C9-DB6D-4526-AC51-5FF774A5FB5A</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>cleanshot://{query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>F6294115-DF4B-416F-B336-91EF4D611065</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>tasksettings</key>
+				<dict>
+					<key>app_list</key>
+					<string>CleanShot X.app</string>
+				</dict>
+				<key>taskuid</key>
+				<string>com.alfredapp.automation.core/macOS/app.quit</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.automation.task</string>
+			<key>uid</key>
+			<string>D111F303-0AA2-4AE1-9928-99C30951998F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>{var:quitKeyword}</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Quit CleanShot X</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>45033408-6228-454C-A61C-31BA7026041B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string># Requirements
+
+This workflow requires that you have [CleanShot X for Mac](https://cleanshot.com/) 4.4 or later installed. It uses the CleanShot X URL scheme API to send commands to CleanShot X.
+
+# Note
+
+The first time you run the workflow you will see a dialog from macOS stating "Alfred would like to control CleanShot X. Grant access to this application?" You must agree to grant access for this workflow to work.
+
+
+# Usage
+
+Run the workflow by typing the default keyword for a list of the various CleanShot X utilities you can trigger from the workflow. You can search the list by pressing &lt;kbd&gt;space&lt;/kbd&gt; and typing the first few letters of the utility you need.
+
+![CleanShot](Images/CS.png)
+
+
+Note that there is also a default keyword for quitting CleanShot X—in case you do not wish to leave it running once you have used it.
+
+From version 1.4 of the workflow Alfred learns from used items to bring them to the top of the list.
+
+---
+**Version 2025.1** 02/02/2025: improved search word matching.
+**Version 2025.1.1 04/02/2025: reverted name to "Cleanshot X".</string>
+	<key>uidata</key>
+	<dict>
+		<key>34B5D9C9-DB6D-4526-AC51-5FF774A5FB5A</key>
+		<dict>
+			<key>xpos</key>
+			<real>30</real>
+			<key>ypos</key>
+			<real>15</real>
+		</dict>
+		<key>45033408-6228-454C-A61C-31BA7026041B</key>
+		<dict>
+			<key>xpos</key>
+			<real>30</real>
+			<key>ypos</key>
+			<real>135</real>
+		</dict>
+		<key>D111F303-0AA2-4AE1-9928-99C30951998F</key>
+		<dict>
+			<key>xpos</key>
+			<real>250</real>
+			<key>ypos</key>
+			<real>135</real>
+		</dict>
+		<key>F6294115-DF4B-416F-B336-91EF4D611065</key>
+		<dict>
+			<key>xpos</key>
+			<real>250</real>
+			<key>ypos</key>
+			<real>15</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>csx||cs</string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>The default keyword to run the workflow is "csx” or "cs". You can change it here.</string>
+			<key>label</key>
+			<string>Workflow keyword</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>keyword</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>csq</string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>The default keyword to quit CleanShot X is "csx” or "cs". You can change it here.</string>
+			<key>label</key>
+			<string>Keyword to quit CleanShot X</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>quitKeyword</string>
+		</dict>
+	</array>
+	<key>variablesdontexport</key>
+	<array/>
+	<key>version</key>
+	<string>2025.1.1</string>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>

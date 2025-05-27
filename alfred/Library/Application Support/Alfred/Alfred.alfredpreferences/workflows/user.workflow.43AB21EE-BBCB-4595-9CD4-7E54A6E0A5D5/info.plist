@@ -1,0 +1,1735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>app.alfred.stephenc.reldat</string>
+	<key>connections</key>
+	<dict>
+		<key>03E91D57-9AB1-4935-961D-F077CF2F2EF4</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C4BDD2C4-9AE6-4B8B-BDE5-DC6F797DB338</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>_button2</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>438371D3-072A-4CA8-97E3-B62E71030D7F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>_button1</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>1B6B50C9-B891-4849-8E7B-BE534949A146</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0E5730CF-A52D-4BE4-ACF0-87DB0157BCF0</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>_button2</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>23B2C2C4-0300-4865-9F2D-BB5C108981D4</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F3171F3D-B060-47DE-AE61-8E44DDE4AC4D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>2EE4BCE3-9771-42DB-B9B8-4A7C9F58246F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>364F0A0B-5D74-4581-886A-D48D5E9F331C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>305FA182-261D-47FD-A5D8-662B8D8D79E4</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B7DF3380-F1B7-45DA-BB07-0F285507FA00</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>3273C539-7CFF-4C3D-9DDC-70C4A4E376BD</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>305FA182-261D-47FD-A5D8-662B8D8D79E4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>334E499F-9B00-4E0A-B186-CA0C502936BB</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7E4F6BF6-1C9E-47B7-B7FB-ED1EC3535695</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>A65259CC-0551-40ED-8AC6-A71E5C9DC2CE</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>03E91D57-9AB1-4935-961D-F077CF2F2EF4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>B8B32329-983B-4663-88AE-4CBABB0F0855</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>364F0A0B-5D74-4581-886A-D48D5E9F331C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>AE88EEC9-3D31-45CE-85B0-50B53929C218</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>438371D3-072A-4CA8-97E3-B62E71030D7F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>FC9560BC-5027-4B2C-B33F-4C9590090388</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>4951082B-F50A-4DD6-B1B8-6DE4726B2555</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>679927DE-5CEE-49B0-BB35-0AF264F23FB2</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>53C94317-EEC0-4E6B-93F3-4B2BBEE8C381</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4951082B-F50A-4DD6-B1B8-6DE4726B2555</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>5C1F87CB-9804-42D8-A727-1CA1E950A6AE</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1B6B50C9-B891-4849-8E7B-BE534949A146</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>5F232FC5-77E9-4BBF-A1E8-3143AAA96619</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9D20863C-2DB7-47D1-B744-90DB4874A9A4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>66B1AB88-CDB9-4BAD-B6D2-27F9B4D77992</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CAB5A173-23CE-40AF-A108-5A185B4AAC53</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>679927DE-5CEE-49B0-BB35-0AF264F23FB2</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>334E499F-9B00-4E0A-B186-CA0C502936BB</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>7B09A5E4-F42B-451E-8C50-21B5DC692454</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2EE4BCE3-9771-42DB-B9B8-4A7C9F58246F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>7BDD797E-E544-443B-B4D5-66289308C6CB</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9D20863C-2DB7-47D1-B744-90DB4874A9A4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>7E4F6BF6-1C9E-47B7-B7FB-ED1EC3535695</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C4BDD2C4-9AE6-4B8B-BDE5-DC6F797DB338</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>_button1</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>438371D3-072A-4CA8-97E3-B62E71030D7F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>_button2</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>9D20863C-2DB7-47D1-B744-90DB4874A9A4</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>53C94317-EEC0-4E6B-93F3-4B2BBEE8C381</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>4BA3F7E2-7796-49F2-B1A7-D3394A026585</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>B74497FB-39AA-4FE0-A508-1AAA44C286DE</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>ABEB16EB-81A3-4E36-BF4A-0C63B700B893</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>BF3001C2-066B-497F-9BA9-F7E7C42C1AA0</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>AE88EEC9-3D31-45CE-85B0-50B53929C218</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>66B1AB88-CDB9-4BAD-B6D2-27F9B4D77992</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B6BC160B-E170-4A19-906D-94896D188232</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>ED7B94CA-0895-465C-99F3-C5A0E5A1BDF9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B7DF3380-F1B7-45DA-BB07-0F285507FA00</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>5C1F87CB-9804-42D8-A727-1CA1E950A6AE</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>BEFC0EAC-E234-44BD-8371-C3A01B66EB3D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B6BC160B-E170-4A19-906D-94896D188232</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>BF3001C2-066B-497F-9BA9-F7E7C42C1AA0</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2EBC7346-83A8-48E4-92E5-866614622D1B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>BEABF1B5-A0E2-47F4-8F5C-E0C302C962B1</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>3273C539-7CFF-4C3D-9DDC-70C4A4E376BD</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C4BDD2C4-9AE6-4B8B-BDE5-DC6F797DB338</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>ABEB16EB-81A3-4E36-BF4A-0C63B700B893</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>CAB5A173-23CE-40AF-A108-5A185B4AAC53</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>23B2C2C4-0300-4865-9F2D-BB5C108981D4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D876C771-5F77-4679-816F-03AFCEE7D1C8</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>BEFC0EAC-E234-44BD-8371-C3A01B66EB3D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<true/>
+			</dict>
+		</array>
+		<key>ED7B94CA-0895-465C-99F3-C5A0E5A1BDF9</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>5F232FC5-77E9-4BBF-A1E8-3143AAA96619</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>2B122019-806A-4494-94C8-33374B109B72</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>7BDD797E-E544-443B-B4D5-66289308C6CB</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>FC9560BC-5027-4B2C-B33F-4C9590090388</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7B09A5E4-F42B-451E-8C50-21B5DC692454</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>4BA3F7E2-7796-49F2-B1A7-D3394A026585</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>56A63057-477D-4B1C-BF29-4B395D0F5C3E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Stephen Christy</string>
+	<key>description</key>
+	<string>Perform date arithmetic</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Date arithmetic</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>button1</key>
+				<string>Close</string>
+				<key>button2</key>
+				<string></string>
+				<key>button3</key>
+				<string></string>
+				<key>description</key>
+				<string>Please ensure there is no space in your input (use +24, -5, rather than + 24, - 5) and no comma in numbers (use 4034 rather than 4,034).
+
+Don't add any character after the number(s).</string>
+				<key>title</key>
+				<string>Input error</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.dialog</string>
+			<key>uid</key>
+			<string>2EBC7346-83A8-48E4-92E5-866614622D1B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>subtext</key>
+				<string>Type, e.g., +7, -33, +4034, etc., without spaces or commas</string>
+				<key>text</key>
+				<string>Calculate a date relative to {var:origMedDate}</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>C4BDD2C4-9AE6-4B8B-BDE5-DC6F797DB338</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>tasksettings</key>
+				<dict/>
+				<key>taskuid</key>
+				<string>com.alfredapp.automation.core/text-processing/text.lines.trim</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.automation.task</string>
+			<key>uid</key>
+			<string>ABEB16EB-81A3-4E36-BF4A-0C63B700B893</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>on run argv
+  set originalDate to item 1 of argv
+  set numberOfDays to item 2 of argv
+  set newDate to (date (originalDate as string)) + numberOfDays * days  set theShortDate to short date string of (newDate)  set theDate to my formatLongDate(theShortDate)  return theDateend runon formatLongDate(LongDateStr)  set astid to AppleScript's text item delimiters  set AppleScript's text item delimiters to " "  set formattedDate to every word of (date string of (date LongDateStr)) as string  set AppleScript's text item delimiters to astid  return formattedDateend formatLongDate</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>6</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>5C1F87CB-9804-42D8-A727-1CA1E950A6AE</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>4</integer>
+						<key>matchstring</key>
+						<string>\s\d|\d,|\d[a-zA-Z]</string>
+						<key>outputlabel</key>
+						<string>Input error</string>
+						<key>uid</key>
+						<string>BEABF1B5-A0E2-47F4-8F5C-E0C302C962B1</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>Continue</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>BF3001C2-066B-497F-9BA9-F7E7C42C1AA0</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>0E5730CF-A52D-4BE4-ACF0-87DB0157BCF0</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>theRegEx</key>
+					<string>^(0[1-9]|[12][0-9]|3[01])\/(0[1-9]|1[0-2])\/\d{4}$</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>5F232FC5-77E9-4BBF-A1E8-3143AAA96619</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>button1</key>
+				<string>End the workflow</string>
+				<key>button2</key>
+				<string>Copy new date to clipboard</string>
+				<key>button3</key>
+				<string></string>
+				<key>description</key>
+				<string>{var:origMedDate} {var:numberOfDays} days is {query}</string>
+				<key>title</key>
+				<string>Date arithmetic</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.dialog</string>
+			<key>uid</key>
+			<string>1B6B50C9-B891-4849-8E7B-BE534949A146</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>button1</key>
+				<string>Calculate offset</string>
+				<key>button2</key>
+				<string>Calculate days between 2 dates</string>
+				<key>button3</key>
+				<string>End the workflow</string>
+				<key>description</key>
+				<string>Choose an option:
+
+- Calculate an offset from the initial date; or
+
+- calculate the number of days between the initial date and a new date</string>
+				<key>title</key>
+				<string>Date arithmetic</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.dialog</string>
+			<key>uid</key>
+			<string>7E4F6BF6-1C9E-47B7-B7FB-ED1EC3535695</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>numberOfDays</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>3273C539-7CFF-4C3D-9DDC-70C4A4E376BD</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>delimiter</key>
+				<string>
+</string>
+				<key>discardemptyarguments</key>
+				<false/>
+				<key>outputas</key>
+				<integer>1</integer>
+				<key>trimarguments</key>
+				<true/>
+				<key>variableprefix</key>
+				<string>split</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.split</string>
+			<key>uid</key>
+			<string>B7DF3380-F1B7-45DA-BB07-0F285507FA00</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{var:originalDate}
+{var:numberOfDays}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>305FA182-261D-47FD-A5D8-662B8D8D79E4</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>on run argv	set theQuery to item 1 of argv	set astid to AppleScript's text item delimiters	set AppleScript's text item delimiters to " "	set mediumDate to words 2 through 4 of (date string of (date theQuery)) as string	set AppleScript's text item delimiters to astid	return mediumDateend run</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>6</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>4951082B-F50A-4DD6-B1B8-6DE4726B2555</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>{var:keyword}</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Date arithmetic (press ⏎ to continue)</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>D876C771-5F77-4679-816F-03AFCEE7D1C8</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Specify the first date in the format chosen in the workflow configuration</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>BEFC0EAC-E234-44BD-8371-C3A01B66EB3D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:defaultCalcOffset}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>5</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string>Default calc offset</string>
+						<key>uid</key>
+						<string>A65259CC-0551-40ED-8AC6-A71E5C9DC2CE</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:defaultCalcOffset}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>6</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string>Default calc days</string>
+						<key>uid</key>
+						<string>B8B32329-983B-4663-88AE-4CBABB0F0855</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+				<key>hideelse</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>334E499F-9B00-4E0A-B186-CA0C502936BB</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>origMedDate</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>679927DE-5CEE-49B0-BB35-0AF264F23FB2</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{var:originalDate}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>53C94317-EEC0-4E6B-93F3-4B2BBEE8C381</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:dateFormat}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>5</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string>European date format</string>
+						<key>uid</key>
+						<string>2B122019-806A-4494-94C8-33374B109B72</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>US date format</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>ED7B94CA-0895-465C-99F3-C5A0E5A1BDF9</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:originalDate}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>4</integer>
+						<key>matchstring</key>
+						<string>{var:theRegEx}</string>
+						<key>outputlabel</key>
+						<string>Continue</string>
+						<key>uid</key>
+						<string>4BA3F7E2-7796-49F2-B1A7-D3394A026585</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>Input error</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>9D20863C-2DB7-47D1-B744-90DB4874A9A4</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>originalDate</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>B6BC160B-E170-4A19-906D-94896D188232</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>theRegEx</key>
+					<string>^(0[1-9]|1[0-2])\/(0[1-9]|[12][0-9]|3[01])\/\d{4}$</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>7BDD797E-E544-443B-B4D5-66289308C6CB</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>on run argv
+  set originalDate to item 1 of argv
+  set secondDate to item 2 of argv
+  if date (secondDate) comes after date (originalDate) then	set temp1 to originalDate	set temp2 to secondDate	set originalDate to temp2	set secondDate to temp1  end if  set theResult to ((date (originalDate as string)) - (date (secondDate as string))) div days  return theResult
+end run</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>6</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>23B2C2C4-0300-4865-9F2D-BB5C108981D4</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>on run argv	set theQuery to item 1 of argv	set astid to AppleScript's text item delimiters	set AppleScript's text item delimiters to " "	set mediumDate to words 2 through 4 of (date string of (date theQuery)) as string	set AppleScript's text item delimiters to astid	return mediumDateend run</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>6</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>364F0A0B-5D74-4581-886A-D48D5E9F331C</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>subtext</key>
+				<string>Specify the 2nd date in the format chosen in the workflow configuration</string>
+				<key>text</key>
+				<string>Calculate days from {var:origMedDate}</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>438371D3-072A-4CA8-97E3-B62E71030D7F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>button1</key>
+				<string>Close</string>
+				<key>button2</key>
+				<string></string>
+				<key>button3</key>
+				<string></string>
+				<key>description</key>
+				<string>Please ensure you type the required date in the correct format chosen in the workflow configuration.</string>
+				<key>title</key>
+				<string>Input error</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.dialog</string>
+			<key>uid</key>
+			<string>B74497FB-39AA-4FE0-A508-1AAA44C286DE</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>delimiter</key>
+				<string>
+</string>
+				<key>discardemptyarguments</key>
+				<false/>
+				<key>outputas</key>
+				<integer>1</integer>
+				<key>trimarguments</key>
+				<true/>
+				<key>variableprefix</key>
+				<string>split</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.split</string>
+			<key>uid</key>
+			<string>CAB5A173-23CE-40AF-A108-5A185B4AAC53</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>secondMedDate</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>AE88EEC9-3D31-45CE-85B0-50B53929C218</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{var:originalDate}
+{var:secondDate}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>66B1AB88-CDB9-4BAD-B6D2-27F9B4D77992</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>secondDate</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>7B09A5E4-F42B-451E-8C50-21B5DC692454</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>button1</key>
+				<string>End the workflow</string>
+				<key>button2</key>
+				<string></string>
+				<key>button3</key>
+				<string></string>
+				<key>description</key>
+				<string>The number of days between {var:origMedDate} and {var:secondMedDate} is {query}</string>
+				<key>title</key>
+				<string>Date arithmetic</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.dialog</string>
+			<key>uid</key>
+			<string>F3171F3D-B060-47DE-AE61-8E44DDE4AC4D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{var:secondDate}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>2EE4BCE3-9771-42DB-B9B8-4A7C9F58246F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:originalDate}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>4</integer>
+						<key>matchstring</key>
+						<string>{var:theRegEx}</string>
+						<key>outputlabel</key>
+						<string>Continue</string>
+						<key>uid</key>
+						<string>4BA3F7E2-7796-49F2-B1A7-D3394A026585</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>Input error</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>FC9560BC-5027-4B2C-B33F-4C9590090388</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>button1</key>
+				<string>Calculate days between 2 dates</string>
+				<key>button2</key>
+				<string>Calculate offset</string>
+				<key>button3</key>
+				<string>End the workflow</string>
+				<key>description</key>
+				<string>Choose an option:
+
+- Calculate the number of days between the initial date and a new date; or
+
+- calculate an offset from the initial date.</string>
+				<key>title</key>
+				<string>Date arithmetic</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.dialog</string>
+			<key>uid</key>
+			<string>03E91D57-9AB1-4935-961D-F077CF2F2EF4</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>button1</key>
+				<string>Close</string>
+				<key>button2</key>
+				<string></string>
+				<key>button3</key>
+				<string></string>
+				<key>description</key>
+				<string>Please ensure you type the required date in the correct format chosen in the workflow configuration.</string>
+				<key>title</key>
+				<string>Input error</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.dialog</string>
+			<key>uid</key>
+			<string>56A63057-477D-4B1C-BF29-4B395D0F5C3E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string># Introduction
+
+This workflow allows you to do two things. You can either calculate:
+- the offset from a specified date calculated in days (for example, plus 24 days or minus 320 days); or
+- the number of days between two given dates.
+
+If you regularly use one of those options more than the other you can set the default option in the User Configuration. The result will enable you simply to dismiss the relevant dialog by pressing ⏎. The first dialog looks like this in the default configuration:
+
+![Date arithmetic](Images/Default config dialog.png)
+
+Without the checkbox checked in the User Configuration it looks like this:
+
+![Date arithmetic](Images/Optional config dialog.png)
+
+# Important note
+
+In the configuration of this workflow you can choose to use the European date format (dd/mm/yyyy)—which is the default—or, by un-checking the checkbox, choose to use the US date format (mm/dd/yyyy).
+
+---
+
+**For this workflow to work properly these must match:**
+
+- the date format you choose in configuration of the workflow; and
+- the format of your computer's date in `System Settings &gt; Language &amp; Region &gt; Date format`.
+
+**The workflow will not work properly if those settings do not match.**
+
+---
+
+# Usage: calculating the offset from a given date
+
+When prompted type the date—following the format set in the User Configuration—and press ⏎. Choose `Calculate offset` from the dialog which is then displayed and type the offset (i.e., plus or minus the number of days) you want followed by ⏎.
+
+**Note**: You simply have to type -5, +230, -4034, etc. *Don't use any spaces, don't use commas within numbers and don't use any characters (like `d`) after the numbers*.
+
+A dialog similar to this will be displayed:
+
+![Date arithmetic](Images/Offset result.png)
+
+# Usage: calculating the days between two dates
+
+Start the workflow exactly as before: when prompted type the date—following the format set in the User Configuration—and press ⏎. Choose `Calculate days between 2 dates` from the dialog which is then displayed and then type the second date (again following the format set in the User Configuration) followed by ⏎.
+
+**Note**: It does not matter if the first date is later than the second: the workflow will take account of that.
+
+A dialog similar to this will be displayed:
+
+![Date arithmetic](Images/Days result.png)
+
+---
+**Version 1.1** 03/08/2023: added missing `Copy to Clipboard` action.
+**Version 1.11** 04/08/2023: corrected very small error in note to one action.</string>
+	<key>uidata</key>
+	<dict>
+		<key>03E91D57-9AB1-4935-961D-F077CF2F2EF4</key>
+		<dict>
+			<key>note</key>
+			<string>Default menu following user configuration</string>
+			<key>xpos</key>
+			<real>1660</real>
+			<key>ypos</key>
+			<real>325</real>
+		</dict>
+		<key>0E5730CF-A52D-4BE4-ACF0-87DB0157BCF0</key>
+		<dict>
+			<key>xpos</key>
+			<real>3070</real>
+			<key>ypos</key>
+			<real>140</real>
+		</dict>
+		<key>1B6B50C9-B891-4849-8E7B-BE534949A146</key>
+		<dict>
+			<key>note</key>
+			<string>Display initial date in medium format (2), number of days (3) and new date (4)</string>
+			<key>xpos</key>
+			<real>2900</real>
+			<key>ypos</key>
+			<real>145</real>
+		</dict>
+		<key>23B2C2C4-0300-4865-9F2D-BB5C108981D4</key>
+		<dict>
+			<key>note</key>
+			<string>Calculate period between dates (7)</string>
+			<key>xpos</key>
+			<real>3025</real>
+			<key>ypos</key>
+			<real>275</real>
+		</dict>
+		<key>2EBC7346-83A8-48E4-92E5-866614622D1B</key>
+		<dict>
+			<key>note</key>
+			<string>Error message</string>
+			<key>xpos</key>
+			<real>2410</real>
+			<key>ypos</key>
+			<real>45</real>
+		</dict>
+		<key>2EE4BCE3-9771-42DB-B9B8-4A7C9F58246F</key>
+		<dict>
+			<key>note</key>
+			<string>Feed second date (5)</string>
+			<key>xpos</key>
+			<real>2400</real>
+			<key>ypos</key>
+			<real>305</real>
+		</dict>
+		<key>305FA182-261D-47FD-A5D8-662B8D8D79E4</key>
+		<dict>
+			<key>note</key>
+			<string>Feed initial date (1) &amp; number of days' variation (3)</string>
+			<key>xpos</key>
+			<real>2525</real>
+			<key>ypos</key>
+			<real>155</real>
+		</dict>
+		<key>3273C539-7CFF-4C3D-9DDC-70C4A4E376BD</key>
+		<dict>
+			<key>note</key>
+			<string>Save number of days' variation (3)</string>
+			<key>xpos</key>
+			<real>2405</real>
+			<key>ypos</key>
+			<real>155</real>
+		</dict>
+		<key>334E499F-9B00-4E0A-B186-CA0C502936BB</key>
+		<dict>
+			<key>note</key>
+			<string>Take default option from User Configuration</string>
+			<key>xpos</key>
+			<real>1460</real>
+			<key>ypos</key>
+			<real>175</real>
+		</dict>
+		<key>364F0A0B-5D74-4581-886A-D48D5E9F331C</key>
+		<dict>
+			<key>note</key>
+			<string>Convert second date to medium format for later use</string>
+			<key>xpos</key>
+			<real>2490</real>
+			<key>ypos</key>
+			<real>275</real>
+		</dict>
+		<key>438371D3-072A-4CA8-97E3-B62E71030D7F</key>
+		<dict>
+			<key>note</key>
+			<string>Prompt for number of days variation from initial date</string>
+			<key>xpos</key>
+			<real>1925</real>
+			<key>ypos</key>
+			<real>290</real>
+		</dict>
+		<key>4951082B-F50A-4DD6-B1B8-6DE4726B2555</key>
+		<dict>
+			<key>note</key>
+			<string>Convert initial date to medium format for later use</string>
+			<key>xpos</key>
+			<real>1160</real>
+			<key>ypos</key>
+			<real>155</real>
+		</dict>
+		<key>53C94317-EEC0-4E6B-93F3-4B2BBEE8C381</key>
+		<dict>
+			<key>note</key>
+			<string>Feed initial date (1)</string>
+			<key>xpos</key>
+			<real>1040</real>
+			<key>ypos</key>
+			<real>185</real>
+		</dict>
+		<key>56A63057-477D-4B1C-BF29-4B395D0F5C3E</key>
+		<dict>
+			<key>note</key>
+			<string>Error message</string>
+			<key>xpos</key>
+			<real>2280</real>
+			<key>ypos</key>
+			<real>430</real>
+		</dict>
+		<key>5C1F87CB-9804-42D8-A727-1CA1E950A6AE</key>
+		<dict>
+			<key>note</key>
+			<string>Calculate the new date (4)</string>
+			<key>xpos</key>
+			<real>2740</real>
+			<key>ypos</key>
+			<real>125</real>
+		</dict>
+		<key>5F232FC5-77E9-4BBF-A1E8-3143AAA96619</key>
+		<dict>
+			<key>note</key>
+			<string>RegEx to validate EUR date</string>
+			<key>xpos</key>
+			<real>705</real>
+			<key>ypos</key>
+			<real>145</real>
+		</dict>
+		<key>66B1AB88-CDB9-4BAD-B6D2-27F9B4D77992</key>
+		<dict>
+			<key>note</key>
+			<string>Feed initial date (1) &amp; second date (5)</string>
+			<key>xpos</key>
+			<real>2785</real>
+			<key>ypos</key>
+			<real>305</real>
+		</dict>
+		<key>679927DE-5CEE-49B0-BB35-0AF264F23FB2</key>
+		<dict>
+			<key>note</key>
+			<string>Save initial date (1) in medium format (2)</string>
+			<key>xpos</key>
+			<real>1340</real>
+			<key>ypos</key>
+			<real>185</real>
+		</dict>
+		<key>7B09A5E4-F42B-451E-8C50-21B5DC692454</key>
+		<dict>
+			<key>note</key>
+			<string>Save second date (5)</string>
+			<key>xpos</key>
+			<real>2280</real>
+			<key>ypos</key>
+			<real>305</real>
+		</dict>
+		<key>7BDD797E-E544-443B-B4D5-66289308C6CB</key>
+		<dict>
+			<key>note</key>
+			<string>RegEx to validate US date</string>
+			<key>xpos</key>
+			<real>705</real>
+			<key>ypos</key>
+			<real>255</real>
+		</dict>
+		<key>7E4F6BF6-1C9E-47B7-B7FB-ED1EC3535695</key>
+		<dict>
+			<key>note</key>
+			<string>Default menu following user configuration</string>
+			<key>xpos</key>
+			<real>1660</real>
+			<key>ypos</key>
+			<real>145</real>
+		</dict>
+		<key>9D20863C-2DB7-47D1-B744-90DB4874A9A4</key>
+		<dict>
+			<key>note</key>
+			<string>Proceed if RegEx matches input date otherwise throw error</string>
+			<key>xpos</key>
+			<real>870</real>
+			<key>ypos</key>
+			<real>190</real>
+		</dict>
+		<key>ABEB16EB-81A3-4E36-BF4A-0C63B700B893</key>
+		<dict>
+			<key>xpos</key>
+			<real>2095</real>
+			<key>ypos</key>
+			<real>110</real>
+		</dict>
+		<key>AE88EEC9-3D31-45CE-85B0-50B53929C218</key>
+		<dict>
+			<key>note</key>
+			<string>Save second date in medium format (6)</string>
+			<key>xpos</key>
+			<real>2665</real>
+			<key>ypos</key>
+			<real>305</real>
+		</dict>
+		<key>B6BC160B-E170-4A19-906D-94896D188232</key>
+		<dict>
+			<key>note</key>
+			<string>Save initial date (1)</string>
+			<key>xpos</key>
+			<real>375</real>
+			<key>ypos</key>
+			<real>200</real>
+		</dict>
+		<key>B74497FB-39AA-4FE0-A508-1AAA44C286DE</key>
+		<dict>
+			<key>note</key>
+			<string>Error message</string>
+			<key>xpos</key>
+			<real>1015</real>
+			<key>ypos</key>
+			<real>290</real>
+		</dict>
+		<key>B7DF3380-F1B7-45DA-BB07-0F285507FA00</key>
+		<dict>
+			<key>note</key>
+			<string>Split variables by line feed</string>
+			<key>xpos</key>
+			<real>2645</real>
+			<key>ypos</key>
+			<real>155</real>
+		</dict>
+		<key>BEFC0EAC-E234-44BD-8371-C3A01B66EB3D</key>
+		<dict>
+			<key>note</key>
+			<string>Detailed prompt for initial date</string>
+			<key>xpos</key>
+			<real>200</real>
+			<key>ypos</key>
+			<real>170</real>
+		</dict>
+		<key>BF3001C2-066B-497F-9BA9-F7E7C42C1AA0</key>
+		<dict>
+			<key>note</key>
+			<string>Error if space before digit or comma in digits</string>
+			<key>xpos</key>
+			<real>2260</real>
+			<key>ypos</key>
+			<real>130</real>
+		</dict>
+		<key>C4BDD2C4-9AE6-4B8B-BDE5-DC6F797DB338</key>
+		<dict>
+			<key>note</key>
+			<string>Prompt for number of days variation from initial date</string>
+			<key>xpos</key>
+			<real>1925</real>
+			<key>ypos</key>
+			<real>110</real>
+		</dict>
+		<key>CAB5A173-23CE-40AF-A108-5A185B4AAC53</key>
+		<dict>
+			<key>note</key>
+			<string>Split variables by line feed</string>
+			<key>xpos</key>
+			<real>2920</real>
+			<key>ypos</key>
+			<real>305</real>
+		</dict>
+		<key>D876C771-5F77-4679-816F-03AFCEE7D1C8</key>
+		<dict>
+			<key>note</key>
+			<string>Keyword + starting prompt</string>
+			<key>xpos</key>
+			<real>30</real>
+			<key>ypos</key>
+			<real>170</real>
+		</dict>
+		<key>ED7B94CA-0895-465C-99F3-C5A0E5A1BDF9</key>
+		<dict>
+			<key>note</key>
+			<string>Decision based on format selected in workflow configuration</string>
+			<key>xpos</key>
+			<real>470</real>
+			<key>ypos</key>
+			<real>190</real>
+		</dict>
+		<key>F3171F3D-B060-47DE-AE61-8E44DDE4AC4D</key>
+		<dict>
+			<key>note</key>
+			<string>Display initial date in medium format (2), number of days (7) and second date in medium format (6)</string>
+			<key>xpos</key>
+			<real>3215</real>
+			<key>ypos</key>
+			<real>305</real>
+		</dict>
+		<key>FC9560BC-5027-4B2C-B33F-4C9590090388</key>
+		<dict>
+			<key>note</key>
+			<string>Proceed if RegEx matches input date otherwise throw error</string>
+			<key>xpos</key>
+			<real>2110</real>
+			<key>ypos</key>
+			<real>310</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>dxa</string>
+				<key>placeholder</key>
+				<string>dxa</string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>The default keyword to run this workflow is "dxa". You can change it here.</string>
+			<key>label</key>
+			<string>Workflow keyword</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>keyword</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<true/>
+				<key>required</key>
+				<false/>
+				<key>text</key>
+				<string>European date format</string>
+			</dict>
+			<key>description</key>
+			<string>E.g., 28/08/2023. If you un-check the box the US date format (mm/dd/yyyy) will be used.</string>
+			<key>label</key>
+			<string>Use European date format (dd/mm/yyyy)</string>
+			<key>type</key>
+			<string>checkbox</string>
+			<key>variable</key>
+			<string>dateFormat</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<true/>
+				<key>required</key>
+				<false/>
+				<key>text</key>
+				<string>Calculate offset from a date</string>
+			</dict>
+			<key>description</key>
+			<string>If the checkbox is checked the default will be to calculate the offset from a date. Otherwise the default will be to calculate the number of days between two dates.</string>
+			<key>label</key>
+			<string>Default calculation</string>
+			<key>type</key>
+			<string>checkbox</string>
+			<key>variable</key>
+			<string>defaultCalcOffset</string>
+		</dict>
+	</array>
+	<key>variablesdontexport</key>
+	<array/>
+	<key>version</key>
+	<string>1.11</string>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>
