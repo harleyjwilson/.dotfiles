@@ -94,3 +94,14 @@ eval $(thefuck --alias)
 
 # Set up 'atuin'
 eval "$(atuin init zsh)"
+
+# Created by `pipx` on 2025-04-07 10:06:13
+export PATH="$PATH:/Users/harleywilson/.local/bin"
+
+# pnpm
+export PNPM_HOME="/Users/harleywilson/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
