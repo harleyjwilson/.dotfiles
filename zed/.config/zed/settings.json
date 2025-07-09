@@ -13,6 +13,61 @@
   // - "system": Use the theme that corresponds to the system's appearance
   // - "light": Use the theme indicated by the "light" field
   // - "dark": Use the theme indicated by the "dark" field
+  "debugger": {
+    "dock": "left"
+  },
+  "ssh_connections": [
+    {
+      "host": "SecDim-VM",
+      "projects": [
+        {
+          "paths": ["/home/parallels/SecDim/Engineering/play"],
+          "port_forwards": [
+            {
+              "local_port": 3000,
+              "remote_port": 3000,
+              "remote_host": "127.0.0.1"
+            },
+            {
+              "local_port": 3001,
+              "remote_port": 3001,
+              "remote_host": "127.0.0.1"
+            },
+            {
+              "local_port": 3002,
+              "remote_port": 3002,
+              "remote_host": "127.0.0.1"
+            },
+            {
+              "local_port": 4000,
+              "remote_port": 4000,
+              "remote_host": "127.0.0.1"
+            },
+            {
+              "local_port": 8000,
+              "remote_port": 8000,
+              "remote_host": "127.0.0.1"
+            },
+            {
+              "local_port": 8001,
+              "remote_port": 8001,
+              "remote_host": "127.0.0.1"
+            },
+            {
+              "local_port": 8002,
+              "remote_port": 8002,
+              "remote_host": "127.0.0.1"
+            },
+            {
+              "local_port": 8080,
+              "remote_port": 8080,
+              "remote_host": "127.0.0.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "edit_predictions": {
     "mode": "subtle",
     "copilot": {
@@ -22,9 +77,11 @@
     "enabled_in_text_threads": false
   },
   "agent": {
+    "default_profile": "write",
+    "always_allow_tool_actions": true,
     "default_model": {
-      "provider": "anthropic",
-      "model": "claude-3-7-sonnet-latest"
+      "provider": "zed.dev",
+      "model": "claude-3-7-sonnet"
     },
     "version": "2"
   },
@@ -42,31 +99,72 @@
   // Whether to enable vim modes and key bindings.
   "vim_mode": true,
   "format_on_save": "on",
+  "tab_size": 2,
   // Different settings for specific languages.
   "languages": {
     "Python": {
-      "language_servers": ["ruff"]
+      "language_servers": ["ruff"],
+      "format_on_save": "on",
+      "tab_size": 4,
+      "formatter": [
+        {
+          "code_actions": {
+            "source.organizeImports.ruff": true,
+            "source.fixAll.ruff": true
+          }
+        },
+        {
+          "language_server": {
+            "name": "ruff"
+          }
+        }
+      ]
     },
-    "Ruby": {
-      "language_servers": ["solargraph", "rubocop", "!ruby-lsp"],
-      "formatter": "language_server"
+    "TypeScript": { "tab_size": 2 },
+    "TSX": { "tab_size": 2 },
+    "YAML": {
+      "tab_size": 2
     }
   },
   // LSP Specific settings.
   "lsp": {
-    "ruff": {},
-    "rubocop": {
+    "pyright": {
       "settings": {
-        "use_bundler": false
+        "python.analysis": {
+          "diagnosticMode": "workspace",
+          "typeCheckingMode": "strict"
+        },
+        "workspace_folders": [
+          {
+            "name": "playapi",
+            "path": "play/playapi",
+            "settings": {
+              "python.pythonPath": "play/playapi/.venv/bin/python",
+              "python.analysis.extraPaths": [
+                "play/playapi/.venv/lib/python3.11/site-packages"
+              ]
+            }
+          },
+          {
+            "name": "cas",
+            "path": "play/id/cas",
+            "settings": {
+              "python.pythonPath": "play/id/cas/.venv/bin/python",
+              "python.analysis.extraPaths": [
+                "play/id/cas/.venv/lib/python3.11/site-packages"
+              ]
+            }
+          }
+        ]
       }
     },
-    "solargraph": {
+    "ruff": {
       "initialization_options": {
-        "diagnostics": true,
-        "formatting": true
-      },
-      "settings": {
-        "use_bundler": false
+        "settings": {
+          "organizeImports": true,
+          "lineLength": 140,
+          "fixAll": true
+        }
       }
     }
   },
