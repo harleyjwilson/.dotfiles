@@ -1,0 +1,21 @@
+colors:
+  body: none
+  date: cyan
+  tags: yellow
+  title: none
+default_hour: 9
+default_minute: 0
+editor: nvim
+encrypt: false
+highlight: true
+indent_character: ''
+journals:
+  default:
+    journal: /Users/harleywilson/Journal/journal.txt
+  work:
+    journal: /Users/harleywilson/Journal/work.txt
+linewrap: 79
+tagsymbols: '#@'
+template: false
+timeformat: '%F %T'
+version: v4.2.1
