@@ -93,6 +93,7 @@ alias top='btm'
 alias cat='bat'
 alias j='jrnl'
 alias jw='jrnl work'
+alias hfl='jrnl --template ~/.config/jrnl/templates/hfl.txt'
 
 # Set up 'thefuck'
 eval $(thefuck --alias)
