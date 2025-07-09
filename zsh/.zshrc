@@ -28,11 +28,14 @@ export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 fpath=(${ASDF_DATA_DIR:-$HOME/.asdf}/completions $fpath)
 autoload -Uz compinit && compinit
 
+# Set up Go path based on asdf Go install
+export PATH="$(go env GOPATH)/bin:$PATH"
+
 # iTerm2 shell integration
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 # Update automatically without asking
-zstyle ':omz:update' mode auto 
+zstyle ':omz:update' mode auto
 
 # Uncomment the following line to change how often to auto-update (in days).
 export UPDATE_ZSH_DAYS=7
@@ -87,7 +90,9 @@ alias ls='eza'
 alias find='fd'
 alias df='duf'
 alias top='btm'
-# alias cat='bat'
+alias cat='bat'
+alias j='jrnl'
+alias jw='jrnl work'
 
 # Set up 'thefuck'
 eval $(thefuck --alias)
